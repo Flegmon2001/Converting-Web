@@ -8,6 +8,13 @@ body {
     height: 100vh;
 }
 
+/* NAV BOX IN TOP LEFT */
+.top-nav {
+    position: fixed; /* force it to top-left corner */
+    top: 20px;
+    left: 20px;
+}
+
 .container {
     background-color: #2c2c2c;
     padding: 25px;
