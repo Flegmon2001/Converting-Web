@@ -15,6 +15,23 @@ body {
     left: 20px;
 }
 
+.top-nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #111; /* same as page */
+    color: #cdaaff; /* light purple */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px; /* match download button */
+    text-shadow: 1px 1px 2px #000; /* matching shadow */
+    transition: background-color 0.2s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5); /* subtle shadow for depth */
+}
+
+.top-nav a:hover {
+    background-color: #222;
+}
+
 .container {
     background-color: #2c2c2c;
     padding: 25px;
